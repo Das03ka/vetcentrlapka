@@ -1,0 +1,501 @@
+
+
+@font-face {
+    font-family: 'ZenMaruGothic';
+    src: local('ZenMaruGothic');
+    src: url(../fonts/ZenMaruGothic-Regular.ttf);
+}
+
+
+body{
+    background-color: #FBE3DB;
+    font-family: 'ZenMaruGothic';
+}
+
+.page{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FBE3DB;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.razmetka{
+    padding: 25px 50px 0 50px;
+
+}
+.imglogo{
+    display: flex;
+    align-self: center;
+}
+.shapka{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.shapka p{
+    margin: 0;
+    color: black;
+}
+
+.imglogo{
+    width: 132px;
+    height: 95px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sh2{
+    text-align: right;
+    text-decoration: none;
+}
+
+.menu{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B5BAAD;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    font-size: 20px;
+    
+}
+.menu a:hover{
+    box-shadow: none;
+    background: #EDBAAA;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.menu a.link {
+    margin-left: 24px;
+    margin-right: 24px; 
+}
+
+.zag{
+    display: flex;
+    flex-direction: column;
+}
+.titr{
+    display: flex;
+    justify-content: space-around;
+}
+.img2{
+    width: 200px;
+}
+
+.zag1{
+    font-size: 35px;
+}
+
+.zag2{
+    font-size: 25px;
+}
+
+.hr{
+    size: 4;
+    color: black;
+}
+.knopki{
+    display: flex;
+    justify-content: space-around;
+}
+
+.knopki button{
+    background-color: #B5BAAD;
+    font-family: 'ZenMaruGothic';
+    font-size: 20px;
+    border: none;
+    border-radius:15px;
+    padding: 8px;
+}
+
+.knopki a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'ZenMaruGothic' ;
+    padding: 8px 25px 8px 25px;
+      
+}
+.knopki a:hover{
+    text-decoration: underline;
+    border-radius: 15px;
+    padding: 8px 25px 8px 25px;
+}
+
+.about{
+    background-color: #EDBAAA;
+    border-radius: 10px;
+    margin: 11px 50px 11px 50px;
+    text-align: center;
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+
+.about a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'ZenMaruGothic' ;
+    padding: 5px 25px 5px 25px;
+    
+}
+.about a:hover{
+    background: #B5BAAD;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.zagolovok{
+    padding-top: 11px;
+    font-size: 25px;
+    margin: 0;
+
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.animals{
+    background-color: #EDBAAA;
+    border-radius: 10px;
+    margin: 11px 0 11px 0;
+    text-align: center;
+}
+
+.imgan{
+    margin-top: 10px;
+    height: 200px;
+}
+
+.vse{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 11px;
+}
+
+.uslugi{
+    background-color: #EDBAAA;
+    border-radius: 10px;
+    margin: 11px 0 11px 0;
+    text-align: center;
+}
+
+.imgus{
+    height: 125px;
+    margin-top: 15px;
+}
+
+.imlus{
+    display: flex;
+    flex-direction: column;
+}
+
+.uslugi a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 11px 0 11px 0;
+}
+.uslugi a:hover{
+    box-shadow: none;
+    background-color: #B5BAAD;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+
+}
+
+.islugi a.link {
+    margin-left: 24px;
+    margin-right: 24px; 
+}
+
+.doctors{
+    background-color: #EDBAAA;
+    border-radius: 10px;
+    margin: 11px 0 11px 0;
+    text-align: center;
+}
+.vse2{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-bottom: 11px;
+}
+
+.imgdoc{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.doctors a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 11px 0 11px 0;
+}
+.doctors a:hover{
+    box-shadow: none;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.kontakt{
+    display: flex;
+    justify-content: space-between;
+    background-color: #B5BAAD;
+    padding: 11px;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 25px 50px 0 50px;
+}
+
+.tap1{
+    display: flex;
+    flex-direction: column;
+}
+.tap1 p{
+    margin: 5px;
+    font-size: 18px;
+}
+
+.tap2{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: right;
+    padding: 0;
+}
+.tap2 p{
+    margin: 5px;
+    font-size: 18px;
+}
+
+.knopki2{
+    display: flex;
+    flex-direction: column;
+}
+
+.knopki2 button {
+    color: black;
+    background-color: #EDBAAA;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'ZenMaruGothic';
+    padding: 5px;
+    margin: 5px;
+}
+.cpezialist{
+    display: flex;
+    justify-content: space-between;
+}
+.cpez{
+    background-color: #EDBAAA;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.cpez img{
+    width: 125px;
+    margin: auto;
+    padding: 0;
+    
+}
+.cpez p{
+    margin: 0;
+}
+
+.cpez hr{
+    margin: auto;
+    padding: 0;
+    width: 140px;
+}
+
+.block{
+    background-color: #EDBAAA;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.kont{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.adress p{
+    width: 300px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: right;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;  
+}
+
+.block img{
+    width: 250px;
+    margin: 25px 15px 0px 0px;
+    border-radius: 10px;
+}
+.information{
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.information2{
+    text-align: justify;
+    font-size: 22px;
+    margin: 0 25px 0 25px;
+}
+
+.zag{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+.forma{
+    width: 700px;
+    background-color: #EDBAAA;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.f1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-title{
+    font-family: 'ZenMaruGothic';
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.input-value{
+    background-color: #FBE3DB;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.otprav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.send-button{
+    font-size: 25px;
+    font-family: 'ZenMaruGothic' ;
+    background-color: #B5BAAD;
+    border-radius: 10px;
+}
+
+.button{
+    color: black;
+    background-color: #EDBAAA;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'ZenMaruGothic';
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.button:hover{
+    box-shadow: none;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.razdel{
+    background-color: #EDBAAA;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+
+}
+
+.usluga-button {
+    color: black;
+    background-color: #EDBAAA;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'ZenMaruGothic';
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.usluga-button:hover{
+    box-shadow: none;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.accardion-content{
+    margin-bottom: 11px;
+}
+
+.usluga{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.u p{
+    margin: 0;
+    font-size: 20px;
+}
+
+.zena p{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: right;
+    font-size: 20px;
+}

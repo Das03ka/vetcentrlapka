@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Счастливая лапка" - контакты</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../str/script.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div class="razmetka">
+            <header>
+                <a class="shapka" href="../index.html">
+                    <p class="sh1">Здоровые и <br> счастливые лапки - <br> наша забота!</p>
+                    <img class="imglogo" src="../img/1.jpg" alt="Логотип">    
+                    <p class="sh2">г.Москва, <br> Лиственничная аллея 2 А <br> 8-961-529-86-96</p>
+                </a>
+                
+                <hr style="border: 1px solid black; margin-bottom:0;">
+        </div>
+            <nav class="menu">
+                <a class="link" href="../str/about.html">О НАС</a>
+                <a class="link" href="../str/uslugi.html">УСЛУГИ</a>
+                <a class="link" href="../str/spez.html">СПЕЦИАЛИСТЫ</a>
+                <a class="link" href="../str/kontakt.html">КОНТАКТЫ</a>
+            </nav>
+            <hr style="border: 1px solid black;margin:0 50px 0 50px;">
+        </header>
+
+        <div class="razmetka">
+            <p class="zag">Заполните заявку на прием. После мы свяжемся с Вами!</p>
+            <div class="forma">                    
+                <form name="mailer" action="" method="post">
+                    <div class="f1">
+                        <div class="text-title"> Ваше ФИО (обязательно):</div>
+                        <input class="input-value" type="text" name="Name">
+                    </div>   
+                    <div class="f1">
+                        <div class="text-title"> Телефон (обязательно):</div>
+                        <input class="input-value" type="text" name="Phone">
+                    </div>
+                    <div class="f1">
+                        <div class="text-title"> Причина обращения:</div>
+                        <textarea class="input-value" type="text" name="Note"></textarea>
+                    </div>     
+                    <div class="otprav"> 
+                        <input class="send-button" type="button" id="sendMail" value="Записаться на прием" onclick="openMailClient()">
+                    </div>
+                </form>
+            </div>
+
+            <script>
+                function sendForm(e){
+                     
+                    // получаем значение поля key
+                    const keyBox = document.search.key;
+                    const val = keyBox.value;
+                    if(val.length<3){
+                        alert("Недопустимая длина строки");
+                        e.preventDefault();
+                    }   
+                    else
+                        alert("Отправка разрешена");
+                }
+                 
+                const sendButton = document.search.send;
+                sendButton.addEventListener("click", sendForm);
+                </script>
+
+            <p class="zag">Для вызова врача на дом позвоните нам по номеру: <u>8-961-529-86-96 </u></p>
+        
+        </div>
+        <div class="kontakt">
+            
+            <div class="tap1">
+                <p><b>Круглосуточная ветеринарная <br> клиника в Москве</b></p>
+                <p>Счастливая лапка</p>
+                <p>2019-2024</p>
+            </div>
+                <img class="imglogo" src="../img/1.jpg" alt="Логотип">  
+            <div class="tap2">
+                <p>С нами можно связаться:</p>
+                <p>8-961-529-86-96</p>
+                <p>zdorov.lapka@vetcent.ru</p>
+                <div class="knopki2">
+                    <button>
+                       <a class="button" href="../str/forma.html">Записаться на прием</a> 
+                    </button>
+                    <button>
+                        <a class="button" href="../str/forma.html">Вызвать врача на дом</a> 
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
